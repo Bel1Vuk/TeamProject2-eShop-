@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>hello</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <script src="./js/script.js" type="module"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>League of Legends</title>
+  </head>
+  <body>
+    <div class="allProductsApp">
+      <header class="header">
+        <h2 class="header__title">League of Legends</h2>
+        <div class="header__icon">
+          🛒 <span class="header__icon--total">0</span>
+        </div>
+      </header>
+      <main class="container">
+        <div class="products"></div>
+      </main>
+    </div>
+
+    <div class="shoppingCartApp">
+      <header class="header">
+        <h2 class="header__title">
+          <a class="btn" href="./index.html">Go back</a>
+        </h2>
+        <div class="clear">
+          <button class="btn1" id="btn1">Clear All</button>
+        </div>
+      </header>
+      <main class="container">
+        <section class="shopping-cart">
+          <h2>Total price: <span class="totalPrice">0</span>$</h2>
+          <div class="cart-items">
+            <div class="item"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
 </html>

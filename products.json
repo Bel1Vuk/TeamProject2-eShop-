@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Master yi",
+        "price": 5.99,
+        "image": { "fields": { "file": { "url": "./images/master yi.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Leona",
+        "price": 10.99,
+        "image": { "fields": { "file": { "url": "./images/leona.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Ahri",
+        "price": 20.99,
+        "image": { "fields": { "file": { "url": "./images/ahri.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Aphelios",
+        "price": 30.99,
+        "image": { "fields": { "file": { "url": "./images/aphelios.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Ashe",
+        "price": 40.99,
+        "image": { "fields": { "file": { "url": "./images/ash.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Braum",
+        "price": 50.99,
+        "image": { "fields": { "file": { "url": "./images/braum.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Ezreal",
+        "price": 60.99,
+        "image":  { "fields": { "file": { "url": "./images/ezreal.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Garen",
+        "price": 70.99,
+        "image": { "fields": { "file": { "url": "./images/gk garen.jpg" } } }
+      }
+    }
+  ]
+}
